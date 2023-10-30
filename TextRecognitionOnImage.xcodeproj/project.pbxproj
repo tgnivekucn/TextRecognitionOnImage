@@ -13,6 +13,7 @@
 		2F576F612AEF90E000DE0F39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F576F5F2AEF90E000DE0F39 /* Main.storyboard */; };
 		2F576F632AEF90E100DE0F39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F576F622AEF90E100DE0F39 /* Assets.xcassets */; };
 		2F576F662AEF90E100DE0F39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F576F642AEF90E100DE0F39 /* LaunchScreen.storyboard */; };
+		2F576F6E2AEF917100DE0F39 /* TextRecognition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F576F6D2AEF917100DE0F39 /* TextRecognition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2F576F622AEF90E100DE0F39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F576F652AEF90E100DE0F39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F576F672AEF90E100DE0F39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F576F6D2AEF917100DE0F39 /* TextRecognition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextRecognition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				2F576F592AEF90E000DE0F39 /* AppDelegate.swift */,
 				2F576F5B2AEF90E000DE0F39 /* SceneDelegate.swift */,
 				2F576F5D2AEF90E000DE0F39 /* ViewController.swift */,
+				2F576F6D2AEF917100DE0F39 /* TextRecognition.swift */,
 				2F576F5F2AEF90E000DE0F39 /* Main.storyboard */,
 				2F576F622AEF90E100DE0F39 /* Assets.xcassets */,
 				2F576F642AEF90E100DE0F39 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				2F576F5E2AEF90E000DE0F39 /* ViewController.swift in Sources */,
 				2F576F5A2AEF90E000DE0F39 /* AppDelegate.swift in Sources */,
+				2F576F6E2AEF917100DE0F39 /* TextRecognition.swift in Sources */,
 				2F576F5C2AEF90E000DE0F39 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
