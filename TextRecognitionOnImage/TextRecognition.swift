@@ -12,7 +12,7 @@ class TextRecognition {
 
     func recognizeText(in image: UIImage) {
         guard let cgImage = image.cgImage else { return }
-        
+        let start = Date()
         let textRecognitionRequest = VNRecognizeTextRequest { (request, error) in
             guard let observations = request.results as? [VNRecognizedTextObservation] else { return }
             
@@ -23,7 +23,7 @@ class TextRecognition {
             // Do something with the recognized text, such as updating the UI
             DispatchQueue.main.async {
                 // Update UI with recognizedStrings
-                print(recognizedStrings)
+                print("test11 recognizedStrings: \(recognizedStrings), duration: \(Date().timeIntervalSince(start))")
             }
         }
         textRecognitionRequest.recognitionLanguages = ["zh-TW"]
